@@ -55,8 +55,8 @@ onUpdated(() => {
   
 	<div class="contenedor">
 	  <h1 class="titulo">¿Cómo Funciona?</h1>
-	  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, laudantium! Aut doloruuga accusantium numquam rem dolore sint, adipisci quidem?</p>
-	  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, laudantium! Aut llo, fuga accusantium numquam rem dolore sint, adipisci quidem?</p>
+	  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, m?</p>
+	  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, m?</p>
 		<img class="imagen" src="/assets/img/pixele.png" alt="">
 		<div class="achievement-area">
     </div>
@@ -71,13 +71,13 @@ onUpdated(() => {
 	.titulo{
 	  color: beige;
 	  font-size: 40px;
-	  top: 240px;
+	  top: 140px;
 	  left: -50px;
 	}
 	p{
-	  margin:  -50px;
+	  margin:  -60px;
 	  color: beige;
-	  top: 350px;
+	  top: 240px;
 	  left: -20px;
 	}
 	.imagen{
