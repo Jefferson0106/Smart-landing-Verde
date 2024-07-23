@@ -59,17 +59,19 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="homepage-slides owl-carousel">
+    <div> <!---class="homepage-slides owl-carousel"--->
  		<div class="single-slide-item">
- 			<div class="overlay"></div>
+ 			<!--div class="overlay"></div> --->
  			<div class="hero-area-content">
  				<div class="container">
  					<div class="row justify-content-center">
  						<div class="col-lg-12 wow fadeInUp animated" data-wow-delay=".2s">
  							<div class="section-title">
- 								<h6 class="text-white">We Build only big things</h6>
- 								<h1>We are leader<br> Industrial Business</h1>
- 								<p> Industrial Revolution, in modern history, the process of change from an agrarian <br>and handicraft economy to one dominated by industry and machine manufacturing.</p>
+								<img class="imagenrobo" src="/assets/img/robo.png" alt="">
+ 								<!--h6 class="text-white">AUTOMATIZA, OPTIMIZA Y MEJORA</h6> -->
+								
+ 								<h1 class="letraverde">AUTOMATIZA, OPTIMIZA Y MEJORA<br>LA EXPERIENCIA DEL CLIENTE</h1>
+ 								<p class="textop"> Industrial Revolution, in modern history, the process of change from an agrarian <br>and handicraft economy to one dominated by industry and machine manufacturing.</p>
  							</div>
  							<router-link :to="{name:'about'}" class="main-btn">Learn More</router-link>
  						</div>
@@ -78,7 +80,7 @@ onMounted(() => {
  			</div>
  		</div>
 
- 		<div class="single-slide-item hero-area-bg-2">
+ 		<!--div class="single-slide-item hero-area-bg-2">
  			<div class="overlay"></div>
  			<div class="hero-area-content">
  				<div class="container">
@@ -93,7 +95,27 @@ onMounted(() => {
  						</div>
  					</div>
  				</div>
- 			</div>
- 		</div>
+ 			</div> 
+ 		</div> --->
  	</div>
 </template>
+
+<style scoped>
+.letraverde{
+	top: 0px;
+	left: 10px;
+	font-size: 40px;
+	color: #2E8B57;
+	text-align: left;
+}
+.imagenrobo{
+	width: 40%;
+	float: right;
+	margin-left: 20px;
+}
+.textop{
+	top: 0px;
+	left: 10px;
+	color: #000;
+}
+</style>

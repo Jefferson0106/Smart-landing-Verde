@@ -46,7 +46,7 @@ onMounted(() => {
  					<div class="row align-items-center">
  						<div class="col-lg-3">
  							<div class="logo">
- 								<router-link class="navbar-brand" to="/"><img src="/assets/img/logo.png" alt=""></router-link>
+ 								<img class="navbar-brand" to="/" src="/assets/img/logo12.png" alt="">
  							</div>
  						</div>
  						<div class="col-lg-6">
@@ -59,57 +59,57 @@ onMounted(() => {
  									</button>
 
  									<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
- 										<ul class="navbar-nav m-auto">
+ 										<ul> <!--class="navbar-nav m-auto"-->
  											<li class="nav-item">
- 												<a class="nav-link active" href="#">Home
+ 												<a class="nav-link active" href="#">Lorem
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
- 												<ul class="sub-menu">
+ 												<!--ul class="sub-menu">
  													<li><router-link :to="{name:'home'}">Home-Main</router-link></li>
  													<li><router-link :to="{name:'home2'}">Home-Industry</router-link></li>
  													<li><router-link :to="{name:'home3'}">Home-Construction</router-link></li>
- 												</ul>
+ 												</ul> --->
  											</li>
 
  											<li class="nav-item">
- 												<a class="nav-link" href="#">Pages
+ 												<a class="nav-link" href="#">Ipsum
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
  												<ul class="sub-menu">
- 													<li><router-link :to="{name:'about'}">About us</router-link></li>
+ 													<!---li><router-link :to="{name:'about'}">About us</router-link></li>
  													<li><router-link :to="{name:'choose-us'}">Why Choose Us</router-link></li>
  													<li><router-link :to="{name:'team'}">Our Team</router-link></li>
  													<li><router-link :to="{name:'price'}">Pricing</router-link></li>
- 													<li><router-link :to="{name:'faq'}">FAQ</router-link></li>
+ 													<li><router-link :to="{name:'faq'}">FAQ</router-link></li> --->
  												</ul>
  											</li>
  											<li class="nav-item">
- 												<a class="nav-link" href="#">Services
+ 												<a class="nav-link" href="#">Dolor
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
  												<ul class="sub-menu">
- 													<li><router-link :to="{name:'service-1'}">Services-01</router-link></li>
+ 													<!---li><router-link :to="{name:'service-1'}">Services-01</router-link></li>
  													<li><router-link :to="{name:'service-2'}">Services-02</router-link></li>
- 													<li><router-link :to="{name:'service-details'}">Service Details</router-link></li>
+ 													<li><router-link :to="{name:'service-details'}">Service Details</router-link></li> --->
  												</ul>
 
  											</li>
 
  											<li class="nav-item">
- 												<a class="nav-link" href="#">Projects
+ 												<a class="nav-link" href="#">Sit
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
  												<ul class="sub-menu">
- 													<li><router-link :to="{name:'project'}">Projects</router-link></li>
- 													<li><router-link :to="{name:'project-details'}">Project Details</router-link></li>
+ 													<!---li><router-link :to="{name:'project'}">Projects</router-link></li>
+ 													<li><router-link :to="{name:'project-details'}">Project Details</router-link></li> --->
  												</ul>
  											</li>
 
- 											<li class="nav-item">
+ 											<!--li class="nav-item">
  												<a class="nav-link" href="#">Blog
  													<span class="sub-nav-toggler">
  													</span>
@@ -118,10 +118,10 @@ onMounted(() => {
  													<li><router-link :to="{name:'blog'}">Blog</router-link></li>
  													<li><router-link :to="{name:'blog-details'}">Blog Details</router-link></li>
  												</ul>
- 											</li>
+ 											</li> 
  											<li class="nav-item">
  												<router-link class="nav-link" :to="{name:'contact'}">Contact</router-link>
- 											</li>
+ 											</li> --->
  										</ul>
 
  									</div>
@@ -130,7 +130,9 @@ onMounted(() => {
  						</div>
  						<div class="col-lg-3 text-end">
  							<div class="header-right-content">
- 								<router-link :to="{name:'contact'}" class="header-btn main-btn">Get a Quote</router-link>
+								<router-link :to="{name:'contact'}"><button type="button" class="botonverde">Login</button></router-link>
+								<router-link :to="{name:'contact'}"><button type="button"  class="botonverde">registro</button></router-link>
+								 
  							</div>
  						</div>
  					</div>

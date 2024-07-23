@@ -52,7 +52,45 @@ onUpdated(() => {
 
 
 <template>
-    <div class="testimonial-area gray-bg section-padding">
+  
+	<div class="contenedor">
+	  <h1 class="titulo">¿Cómo Funciona?</h1>
+	  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, laudantium! Aut doloruuga accusantium numquam rem dolore sint, adipisci quidem?</p>
+	  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, laudantium! Aut llo, fuga accusantium numquam rem dolore sint, adipisci quidem?</p>
+		<img class="imagen" src="/assets/img/pixele.png" alt="">
+		<div class="achievement-area">
+    </div>
+	</div>
+  </template>
+  
+  <style scoped>
+	.contenedor {
+		text-align: center;
+		/* Personaliza otros estilos aquí */
+	}
+	.titulo{
+	  color: beige;
+	  font-size: 40px;
+	  top: 240px;
+	  left: -50px;
+	}
+	p{
+	  margin:  -50px;
+	  color: beige;
+	  top: 350px;
+	  left: -20px;
+	}
+	.imagen{
+		top: 950px;
+	  left: -20px;
+	}
+	
+  </style>
+
+
+
+
+<!----- <div class="testimonial-area gray-bg section-padding">
  		<div class="capricorn-testimonial">
  			<div class="container">
  				<div class="row">
@@ -86,5 +124,4 @@ onUpdated(() => {
  				</div>
  			</div>
  		</div>
- 	</div>
-</template>
+ 	</div>-->
