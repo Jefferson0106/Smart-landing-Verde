@@ -1507,7 +1507,8 @@ single-service-area.active {
 ============== */
 
 .project-bg {
-	background-image: url(../img/project/project-1-1.jpg);
+	background-color: #66CDAA;
+/* 	background-image: url(../img/fondo.png); */
 }
 
 .project-bg-2 {
@@ -1969,17 +1970,17 @@ p.blog-meta i:before {
 
 .footer-area {
 	background: 	#66CDAA;
-	color: #fff;
+	color: #FFFFFF;
 }
 
 .footer-area h5 {
-	color: #fff;
+	color: #FFFFFF;
 	margin: 20px 0;
 }
 
 .footer-area p {
 	margin-top: 16px;
-	color: #9aa3b2;
+	color: #FFFFFF;
 }
 
 .contact-info p {
@@ -1988,19 +1989,19 @@ p.blog-meta i:before {
 
 .footer-area ul li a {
 	display: block;
-	color: #d7d7d7;
+	color: #FFFFFF;
 	padding: 10px 0;
 }
 
 .footer-up ul li a span {
-	color: #F35C27;
+	color: #FFFFFF;
 	font-size: 18px;
 	font-weight: 600;
 	margin-right: 10px;
 }
 
 .footer-area ul li a:hover {
-	color: #F35C27;
+	color: #2E8B57;
 }
 
 .subscribe-form button {
@@ -2052,18 +2053,30 @@ p.blog-meta i:before {
 
 .footer-up .social-area i {
 	background-color: #F8F9FB ;
-	color: #2E8B57;
+	color: #66CDAA;
 	font-size: 21px;
 }
 
 .footer-bottom {
 	padding: 15px 0;
-	background: #061129;
+	background: #66CDAA;
+	position: relative;
+}
+.footer-bottom::before {
+    content: "";
+    display: block;
+    width: 1300px; /* Ajusta este valor para cambiar el largo del borde */
+    height: 5px; /* Grosor del borde */
+    background: #FFFFFF; /* Color del borde */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .footer-bottom p {
 	margin: 0;
-    color: #fff;
+    color: #FFFFFF;
     font-size: 15px;
     opacity: .5;
 }

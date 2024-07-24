@@ -52,42 +52,132 @@ onUpdated(() => {
 
 
 <template>
-  
-	<div class="contenedor">
-	  <h1 class="titulo">¿Cómo Funciona?</h1>
-	  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, m?</p>
-	  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, m?</p>
-		<img class="imagen" src="/assets/img/pixele.png" alt="">
-		<div class="achievement-area">
-    </div>
-	</div>
-  </template>
-  
-  <style scoped>
-	.contenedor {
-		text-align: center;
-		/* Personaliza otros estilos aquí */
-	}
-	.titulo{
-	  color: beige;
-	  font-size: 40px;
-	  top: 140px;
-	  left: -50px;
-	}
-	p{
-	  margin:  -60px;
-	  color: beige;
-	  top: 240px;
-	  left: -20px;
-	}
-	.imagen{
-		top: 950px;
-	  left: -20px;
-	}
-	
-  </style>
+<div class="project-bg">
+				<h1 class="faq">FAQ</h1>
+				<p class="faque">Lorem ipsum dolor sit amet consectetur,atior gdr erys sikkza </p>
 
+					<img class="robo3" src="/assets/img/robo1.png" alt="">
+					<img class="mensaje3" src="/assets/img/mensaje.png" alt="">
+					<h6 class="texto">Lorem ipsum dolor sit amet</h6>
+					<span class="signo">^</span>
 
+					<img class="mensaje4" src="/assets/img/mensaje.png" alt="">
+					<h6 class="texto1">Lorem ipsum dolor sit amet</h6>
+					<span class="signo">^</span>
+
+					<img class="mensaje5" src="/assets/img/mensaje.png" alt="">
+					<h6 class="texto2">Lorem ipsum dolor sit amet</h6>
+					<span class="signo">^</span>
+
+					<img class="mensaje6" src="/assets/img/mensaje.png" alt="">
+					<h6 class="texto3">Lorem ipsum dolor sit amet</h6>
+					<span class="signo">^</span>
+
+					<!---img class="mensaje7" src="/assets/img/mensaje.png" alt="">
+					<h6 class="texto4">Lorem ipsum dolor sit amet</h6>
+					<span class="signo">^</span> --->
+
+			</div>
+ 
+</template>
+
+<style scoped>
+
+.robo3{
+	width: 20%;
+	position: relative;
+            left: 10px; 
+            top: 200px;  
+			margin: 20px;
+        }
+.faq{
+	position: relative;
+            left: -510px; 
+            top: 200px;  
+			margin: 20px;
+			color: #FFFFFF;
+}
+.faque{
+	position: relative;
+            left: -350px; 
+            top: 200px;  
+			margin: 50px;
+			color: #FFFFFF;
+}
+.mensaje3{
+	width: 30%;
+	position: relative;
+            left: 260px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -100px;  /* Ajusta este valor para mover la imagen verticalmente */
+			margin: 50px;
+}
+.mensaje4{
+	width: 30%;
+	position: relative;
+            left: 430px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -500px;  /* Ajusta este valor para mover la imagen verticalmente */
+			margin: 50px;
+}
+.mensaje5{
+	width: 30%;
+	position: relative;
+            left: 430px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -900px;  /* Ajusta este valor para mover la imagen verticalmente */
+			margin: 50px;
+}.mensaje6{
+	width: 30%;
+	position: relative;
+            left: 430px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -1290px;  /* Ajusta este valor para mover la imagen verticalmente */
+			margin: 50px;
+}
+.mensaje7{
+	width: 30%;
+	position: relative;
+            left: 430px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -190px;  /* Ajusta este valor para mover la imagen verticalmente */
+			margin: 50px;
+}
+.texto {
+            position: relative;
+			left: 400px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -420px;  /* Ajusta este valor para mover la imagen verticalmente */
+            color: black;
+        }
+.texto1{
+	position: relative;
+			left: 400px; 
+            top: -810px; 
+            color: black;
+}
+.texto2{
+	position: relative;
+			left: 400px; 
+            top: -1210px; 
+            color: black;
+}
+.texto3{
+	position: relative;
+			left: 400px; 
+            top: -1600px; 
+            color: black;
+}
+.texto4{
+	position: relative;
+			left: 400px; 
+            top: -1999px; 
+            color: brown;
+}
+		.signo {
+            position: absolute;
+            top: 50%;
+            left: calc(50% + 20px); /* Ajusta esta distancia según sea necesario */
+            transform: translate(-50%, -50%);
+            font-size: 12px; /* Ajusta el tamaño del signo según sea necesario */
+            color: blue;
+        }
+
+</style>
 
 
 <!----- <div class="testimonial-area gray-bg section-padding">

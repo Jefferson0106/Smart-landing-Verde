@@ -1,7 +1,7 @@
 <script setup>
 
 import { HeaderOne, HeaderTop, HeroOne, AboutOne, ServicesOne, FeatureOne, CounterOne, ProjectOne,
-TestimonialOne, ChooseOne, BlogOne, CTAOne, } from "../components";
+TestimonialOne, ChooseOne, BlogOne, CTAOne,  } from "../components";
 
 
 </script>
@@ -15,16 +15,23 @@ TestimonialOne, ChooseOne, BlogOne, CTAOne, } from "../components";
     <HeroOne/>
     <!---donde va el telefono-->
     <AboutOne/>
-    <!---ServicesOne/> ---->
 
-     <!--en la parte de la computadora-->
-    <FeatureOne/>
-     <!---parte del reloj-->
+      <!--en la parte de la computadora-->
+    <ServicesOne/>
+       <!---parte del reloj-->
+    <FeatureOne/> 
+
+  <!---parte del corazon-->
     <CounterOne/>
+
+  <!---la parte del video -->
     <ProjectOne/>
-    <TestimonialOne/>
-   
-   
-    <CTAOne/>
+
+    <!---TestimonialOne/> -->
+
+
+    
+   <!----Formulario-->
+    <!---CTAOne/> --->
     
 </template>
