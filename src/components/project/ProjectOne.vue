@@ -243,7 +243,7 @@ export default {
 
 	.form-overlay {
 		position: absolute;
-            top: 960%;
+            top: 1000%;
             left: 50%;
             transform: translate(-50%, -50%);
         background-color: #FFFFFF; /* Fondo semitransparente */
@@ -322,7 +322,7 @@ input[type="submit"] {
 		  
 	text-align: center;
             top: 30px;
-            left: 3%;
+            left: 1%;
 			font-size: 15px;
             color: #FFFFFF; 
             background-color: transparent;
