@@ -243,7 +243,7 @@ export default {
 
 	.form-overlay {
 		position: relative;
-            top: 1000%;
+            top: 310px;
             left: 50%;
             transform: translate(-50%, -50%);
 			color: #000;
@@ -365,32 +365,31 @@ input[type="submit"] {
 			color: #FFFFFF;
 }
 .mensaje3{
-	width: 30%;
+	width: 40%;
 	position: relative;
             left: 20px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: 100px;  /* Ajusta este valor para mover la imagen verticalmente */
+            top: 600px;  /* Ajusta este valor para mover la imagen verticalmente */
 			margin: 50px;
 			
 }
 .mensaje4{
-	width: 30%;
+	width: 40%;
 	position: relative;
-            left: 330px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: 300px;  /* Ajusta este valor para mover la imagen verticalmente */
+	left: 90px; /* Ajusta este valor para mover la imagen horizontalmente */
+	top: 400px;  /* Ajusta este valor para mover la imagen verticalmente */
 			margin: 50px;
-			font-size: 1px;
 }
 .mensaje5{
-	width: 30%;
+	width: 40%;
 	position: relative;
-            left: 430px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: -900px;  /* Ajusta este valor para mover la imagen verticalmente */
+	left: 90px; /* Ajusta este valor para mover la imagen horizontalmente */
+	top: 200px;  /* Ajusta este valor para mover la imagen verticalmente */
 			margin: 50px;
 }.mensaje6{
-	width: 30%;
+	width: 40%;
 	position: relative;
-            left: 430px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: -1290px;  /* Ajusta este valor para mover la imagen verticalmente */
+	left: 90px; /* Ajusta este valor para mover la imagen horizontalmente */
+	top:20px;  /* Ajusta este valor para mover la imagen verticalmente */
 			margin: 50px;
 }
 .mensaje7{
@@ -401,31 +400,36 @@ input[type="submit"] {
 			margin: 50px;
 }
 .texto {
+	font-size: 10px;
             position: relative;
 			left: 100px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: 450px;  /* Ajusta este valor para mover la imagen verticalmente */
+            top: 410px;  /* Ajusta este valor para mover la imagen verticalmente */
 			
             color: black;
         }
 .texto1{
+	font-size: 10px;
 	position: relative;
 			left: 100px; 
-            top: 240px; 
+            top: 210px; 
             color: black;
 }
 .texto2{
+	font-size: 10px;
 	position: relative;
 			left: 100px; 
-            top: 30px; 
+            top: 10px; 
             color: black;
 }
 .texto3{
+	font-size: 10px;
 	position: relative;
 			left: 100px; 
             top: -180px; 
             color: black;
 }
 .texto4{
+	font-size: 10px;
 	position: relative;
 			left: 400px; 
             top: -1999px; 
