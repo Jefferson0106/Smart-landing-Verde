@@ -101,7 +101,9 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.letraverde{
+
+@media (max-width: 767px) {
+	.letraverde{
 	top: 0px;
 	left: 10px;
 	font-size: 40px;
@@ -118,4 +120,27 @@ onMounted(() => {
 	left: 10px;
 	color: #000;
 }
+}
+
+
+@media (min-width: 768px) {
+	.letraverde{
+	top: 0px;
+	left: 10px;
+	font-size: 40px;
+	color: #2E8B57;
+	text-align: left;
+}
+.imagenrobo{
+	width: 40%;
+	float: right;
+	margin-left: 20px;
+}
+.textop{
+	top: 0px;
+	left: 10px;
+	color: #000;
+}
+}
+
 </style>

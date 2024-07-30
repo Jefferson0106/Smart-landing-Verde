@@ -64,7 +64,7 @@ onUpdated(() => {
  						<!---h6>Features</h6> --->
  						<h2 class="computadora"><span class="punto"></span>Integracion Sencilla Con <b></b></h2>
 						 <h2 class="computadora"><b>Sistema Existente</b></h2>
-						 <p class="textoparrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi libero placeat nemo iusto quaerat sequi veritatis aliquam accusamus tempore ratione error, assumenda ullam! Cumque at eveniet accusantium maxime enim quos.</p>
+						 <p class="textoparrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi libero  nemo iusto quaerat sequi veritatis aliquam accusamus tempore ratione error, assumenda ullam! Cumque at eveniet accusantium maxime enim .</p>
  					</div>
 					
  					<!--div 
@@ -92,6 +92,33 @@ onUpdated(() => {
 
 
 <style scoped>
+
+
+
+@media (max-width: 767px) {
+	.computadora{
+	top: 10px;
+	left: 1px;
+	font-size: 30px;
+	color: #2E8B57;
+	
+}
+.punto {
+	width: 30px;
+	height: 20px;
+	background-color: #2E8B57;
+	border-radius: 50%;
+	margin-right: 10px;
+	
+} 
+.textoparrafo{
+	top: 10px;
+	left: -10px;
+}
+
+}
+
+@media (min-width: 768px) {
 .computadora{
 	top: 100px;
 	left: 1px;
@@ -110,6 +137,8 @@ onUpdated(() => {
 .textoparrafo{
 	top: 100px;
 	left: 20px;
+}
+
 }
 </style>
 

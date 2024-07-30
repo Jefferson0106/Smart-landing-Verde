@@ -72,6 +72,32 @@ onUpdated(() => {
  </template>
 
 <style scoped>
+
+
+@media (max-width: 767px) {
+	.telefono{
+	width: 70%;
+	padding: 10px;
+	margin: 20px;
+}
+.verdel{
+	top: 1px;
+	left: 1px;
+	font-size: 29px;
+	color: #2E8B57;
+
+}
+.textoparrafo{
+	margin: 20px;
+}
+
+
+}
+
+@media (min-width: 768px) {
+
+
+
 .telefono{
 	width: 70%;
 	padding: 10px;
@@ -86,6 +112,7 @@ onUpdated(() => {
 }
 .textoparrafo{
 	margin: 20px;
+}
 }
 </style>
 

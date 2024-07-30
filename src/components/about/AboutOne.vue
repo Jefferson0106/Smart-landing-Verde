@@ -51,4 +51,23 @@
 	padding: 10px;
 	margin: 20px;
 }
+
+@media (max-width: 767px) {
+	h2 {
+		top: 1px;
+		left: 1px;
+		font-size: 30px;
+		color: #2E8B57;
+		white-space: nowrap;
+	}
+	.punto {
+		width: 30px;
+		height: 20px;
+		background-color: #2E8B57;
+		border-radius: 50%;
+		margin-right: 10px;
+		display: inline-block;
+	}
+
+}
 </style>
