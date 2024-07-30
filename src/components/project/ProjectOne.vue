@@ -242,19 +242,21 @@ export default {
 
 
 	.form-overlay {
-		position: absolute;
+		position: relative;
             top: 1000%;
             left: 50%;
             transform: translate(-50%, -50%);
+			color: #000;
         background-color: #FFFFFF; /* Fondo semitransparente */
             padding: 10px;
             border-radius: 1px;
             width: 80%; /* Ajusta el ancho según sea necesario */
-            box-shadow: 0 4px 8px black;
+            box-shadow: 0 4px 8px ;
     }
 	input[type="text"], select, textarea {
     width: 100%;
     padding: 12px;
+	color: #000;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -270,7 +272,7 @@ label {
 /* Estilo para el botón de envío */
 input[type="submit"] {
     background-color: #04AA6D;
-    color: white;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
